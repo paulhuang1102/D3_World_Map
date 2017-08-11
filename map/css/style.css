@@ -159,12 +159,6 @@ td, th {
   width: 1200px;
   height: 960px;
   margin: 0 auto; }
-  .map svg {
-    -webkit-filter: drop-shadow(10px 15px 5px #888);
-            filter: drop-shadow(10px 15px 5px #888); }
-    .map svg path {
-      -webkit-filter: drop-shadow(10px 15px 5px #888);
-              filter: drop-shadow(10px 15px 5px #888); }
 
 .bubble {
   position: absolute;
@@ -203,24 +197,16 @@ td, th {
 
 .point {
   cursor: pointer; }
-  .point:hover {
-    stroke: gray; }
 
 .pos {
   cursor: pointer;
   z-index: 999; }
 
 .United-Kingdom {
-  fill: #0066FF; }
-  .United-Kingdom:hover {
-    fill: #46A3FF; }
+  fill: #46A3FF; }
 
 .Canada {
-  fill: #FF0000; }
-  .Canada:hover {
-    fill: #FF3B3B; }
+  fill: red; }
 
 .Thailand {
-  fill: #00D100; }
-  .Thailand:hover {
-    fill: #0DFF0D; }
+  fill: green; }
